@@ -1,0 +1,85 @@
+.icons:hover{
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  transform: scale(1.1); 
+  /* transform: rotate(360deg); */
+ 
+}
+.iconcard{
+    margin-top: 40px;
+    border-radius: 15px;
+
+}
+.banu{
+ margin-left: 150px;
+
+}
+
+.mern{
+  margin-left: 250px;
+}
+
+.midcard{
+  margin-top: 50px;
+  border-radius: 25px;
+}
+.cardbutton{
+  margin-left: 250px;
+
+}
+
+
+
+
+.banuimg{
+  height: 250px;
+  width:250px;
+  border-radius: 250px;
+  border: 1px solid grey;
+  margin-top: 120px;
+  margin-left: 40px;
+
+}
+
+
+
+@media screen and (max-width: 766px){
+    .iconcard{
+        margin-top:5px;
+        border-radius: 15px;
+    }
+    .icons:hover{
+        cursor: pointer;
+        transition: transform 200ms ease-in-out;
+        transform: scale(1.1);
+    
+         }
+         .cardbody{
+          margin-left: 50px;
+        }
+
+        .banu{
+          margin-left: 50px;
+         
+         }
+         
+         .mern{
+           margin-left: 20px;
+         }
+         .midcard{
+          margin-top: 15px;
+          border-radius: 25px;
+        }
+        .cardbutton{
+          margin-left: 15px;
+        }
+        .banuimg{
+          height: 250px;
+          width:250px;
+          border-radius: 250px;
+          border: 1px solid grey;
+          margin-top: 20px;
+          margin-left: 35px;
+        
+        }
+}

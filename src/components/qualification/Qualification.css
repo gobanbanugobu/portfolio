@@ -1,0 +1,51 @@
+.pacr{
+    margin-top: 20px;
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 430px;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+
+}
+.pacr:hover{
+    background-color:white;
+    height: 470px;
+}
+.aec{
+    margin-top: 20px;
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 430px;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+.aec:hover{
+    background-color:white;
+    height: 470px;
+
+}
+.gt{
+    margin-top: 20px;
+    margin-left: 130px;  
+    border-radius: 20px;
+    height: 430px;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+.gt:hover{
+    background-color:white;
+    height: 470px;
+}
+
+
+@media screen and (max-width: 766px) {
+    .pacr{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .aec{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .gt{
+        margin-top: 20px;
+        margin-left: 15px;  
+    }
+}

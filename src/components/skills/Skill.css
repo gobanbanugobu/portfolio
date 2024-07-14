@@ -1,0 +1,119 @@
+.html{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+}
+.html:hover{
+    transform: rotate(360deg);
+}
+.react{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    transition: transform 0.5s ease;
+border-radius: 60px;
+}
+.react:hover{
+    transform: rotate(360deg);
+}
+.node{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+border-radius: 60px;
+}
+.node:hover{
+    transform: rotate(360deg);
+}
+.bootstrap{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    transition: transform 0.5s ease;
+border-radius: 10px;
+
+}
+.bootstrap:hover{
+    transform: rotate(360deg);
+
+}
+.express{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+border-radius: 30px;
+
+}
+.express:hover{
+    transform: rotate(360deg);
+}
+.mongoose{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    transition: transform 0.5s ease;
+border-radius: 30px;
+
+}
+.mongoose:hover{
+    transform: rotate(360deg);  
+}
+.creativity{
+    margin-left: 25px;
+}
+.communication{
+    margin-left: 60px;   
+}
+.problemsolving{
+    margin-left: 20px;  
+
+}
+.teamwork{
+    margin-left: 25px;  
+    margin-top: 15px;
+}
+.spinners{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 766px)
+{
+    .spinners{
+        margin-left: 2px;
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 766px){
+    .creativity{
+        margin-left: 15px;
+
+}
+.communication{
+    margin-left: 45px;   
+}
+.problemsolving{
+    margin-left: 10px;  
+
+}
+.teamwork{
+    margin-left: 15px;  
+    margin-top: 10px;
+}
+
+}

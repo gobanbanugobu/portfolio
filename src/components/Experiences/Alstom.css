@@ -1,0 +1,25 @@
+.heading{
+    margin-left: 500px;
+}
+.alsimg{
+    height: 300px;
+    width:360px;
+    border-radius: 30px;
+}
+.locationbutton{
+margin-left: 125px;
+
+}
+@media screen and (max-width:766px) {
+    .heading{
+        margin-left: 100px;
+    }
+    .alsimg{
+        height: 290px;
+        width:290px;
+        border-radius: 30px;}
+        
+        .locationbutton{
+            margin-left: 100px;}
+    
+}

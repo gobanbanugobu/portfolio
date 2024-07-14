@@ -1,0 +1,13 @@
+.gtimg{
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+}
+@media screen  and (max-width:766px){
+    .gtimg{
+        height: 290px;
+        width: 290px;
+        border-radius: 30px;
+    }
+    
+}

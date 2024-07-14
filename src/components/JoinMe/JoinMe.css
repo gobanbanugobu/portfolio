@@ -1,0 +1,66 @@
+.contactme{
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.sendme{
+    margin-left: 220px;
+    border-radius: 30px;
+    margin-top: 80px
+}
+.location{
+    height: 30px;
+    width: 30px;
+    transition: transform 0.5s ease;
+    
+}
+.location:hover{
+    transform: rotate(360deg);
+}
+.email{
+    height: 25px;
+    width: 25px;
+    transition: transform 0.5s ease;
+}
+.email:hover{
+    transform: rotate(360deg);
+}
+.education{
+    height: 30px;
+    width: 30px;
+    transition: transform 0.5s ease;
+    border-radius: 40px;
+}
+.education:hover{
+    transform: rotate(360deg);
+}
+
+.mobile{
+    height: 25px;
+    width: 25px;
+    transition: transform 0.5s ease;
+}
+.mobile:hover{
+    transform: rotate(360deg);
+}
+.language{
+    height: 30px;
+    width: 30px;
+    transition: transform 0.5s ease;
+    border-radius: 40px;
+}
+.language:hover{
+    transform: rotate(360deg);
+
+}
+@media screen and (max-width: 766px){
+    .contactme{
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .sendme{
+        margin-left: 100px;
+        border-radius: 30px;
+        margin-top: 2px;
+    }
+
+}
