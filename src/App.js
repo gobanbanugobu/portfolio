@@ -9,8 +9,8 @@ import GT from './components/Experiences/GT';
 import Qualifications from './components/qualification/Qualifications';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LogOut from './components/Login,Logout/LogOut';
-import Login from './components/Login,Logout/Login';
 import Projects from './components/project/Projects';
+import Login from './components/Login,Logout/Login';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
    <BrowserRouter>
 <NavigationBar/>
 <Routes>
-<Route path='/' element={<Login/>}/>
+  <Route path="/" element={<Login/>}/>
 <Route path="/Home" element={<Home/>}/>
 <Route path="/Skill" element={<Skill/>}/>
 <Route path="/Qualifications" element={<Qualifications/>}/>
@@ -28,9 +28,12 @@ function App() {
 <Route path="/JoinMe" element={<JoinMe/>}/>
 <Route path="/GT" element={<GT/>}/>
 <Route path="/LogOut"element={<LogOut/>}/>
-
 </Routes>
 </BrowserRouter>
+
+
+
+
 
 
 
